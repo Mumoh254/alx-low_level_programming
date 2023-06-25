@@ -1,37 +1,35 @@
-Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
-
-
-Don’t add or remove any lines of code, as we will be checking your line count. You are only allowed to comment out existing code.
-
-You do not have to compile with -Wall -Werror -Wextra -pedantic for this task.
-
-
-
-
-
-
 #include <stdio.h>
 
 /**
+
 * main - causes an infinite loop
+
 * Return: 0
+
 */
 
 int main(void)
+
 {
-        int i;
 
-        printf("Infinite loop incoming :(\n");
+int i;
 
-        i = 0;
+printf("Infinite loop incoming :(\n");
 
-        while (i < 10)
-        {
-                putchar(i);
-        }
+i = 0;
 
-        printf("Infinite loop avoided! \\o/\n");
+/*while (i < 10)*/
 
-        return (0);
+/*{*/
+
+/*putchar(i);*/
+
+/*}*/
+
+printf("Infinite loop avoided! \\o/\n");
+
+return (0);
+
 }
+
 
